@@ -10,4 +10,4 @@ RUN apt update
 RUN apt -y upgrade
 RUN apt install -y ffmpeg
 
-CMD [ "node_modules/.bin/ts-node", "main.ts"]
+CMD [ "node_modules/.bin/ts-node","main.ts"]
